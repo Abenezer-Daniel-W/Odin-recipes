@@ -1,3 +1,3 @@
-# git_test
+# Odin recipes
 hello odin
     
