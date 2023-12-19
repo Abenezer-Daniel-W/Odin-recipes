@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipes</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="app.js" defer></script>
+	<title>Document</title>
 </head>
 <body>
-    <div class="header">
-        <h1>Odin Recipes</h1>
-    </div>
-
-    <div class="recipes">
-        <ul>
-            <li><a href="recipes/noodles.html">noodles</a></li>
-            <li><a href="recipes/rice.html">Rice</a></li>
-        </ul>
-    </div>
+	<div class="header">Rock paper scissor</div>
+	<div class="main">
+			<button id="rock"><img src="rock.jpeg" alt=""></button>
+			<button id="paper"><img src="raised-hand.png" alt=""></button>
+			<button id="scissors"><img src="scissors.jpeg" alt=""></button>
+	</div>
+	<div class="result">
+		<p>press either rock paper or scissors to playe</p>
+		<div class="score">
+			<p id="user_scr">user score: 0</p>
+			<p id="comp_scr">computer sore: 0</p>
+		</div>
+	</div>
+	
 </body>
 </html>

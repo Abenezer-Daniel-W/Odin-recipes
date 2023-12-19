@@ -1,21 +1,48 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
+body{
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    padding: 0;
+    background-color: #313d57;
 }
-
 .header{
-    text-align: center;
-    background-color: lightseagreen;
-    color: white;
-    padding: 10px;
-    margin-bottom: 5px;
-    width: auto;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px red solid; */
 }
 
-.recipes{
-    display: inline-block;
-    padding: 10px;
-    background-color: red;
+.main{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 3px red solid; */
+}
+button{
+    border: white 3px solid;
+    background-color: #313d57;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+button:hover {
+    background-color: #04AA6D; /* Green */
+    color: white;
+}
+button img{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+.result{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
 }
